@@ -26,6 +26,8 @@ class SynheartWear {
 
   GarminHealth? _garminHealth;
 
+  bool get initialized => _initialized;
+
   SynheartWear({
     SynheartWearConfig? config,
     Map<DeviceAdapter, WearAdapter>? adapters,
