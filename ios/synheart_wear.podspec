@@ -17,7 +17,7 @@ and optional Garmin Companion SDK integration.
   # every build.
   s.source_files = 'Classes/**/*.{swift,h,m}'
   s.dependency 'Flutter'
-  s.platform = :ios, '16.0'
+  s.platform = :ios, '15.0'
   s.swift_version = '5.10'
   s.static_framework = true
 
